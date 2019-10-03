@@ -1,5 +1,5 @@
-------------------------------
-Kind of a hack, but it was fast to figure it out...
+## Get Extensions
+> Kind of a hack, but it was fast to figure it out...
 To see all the extensions of files in a directory, get the last
 4 characters of each line...
 
@@ -15,6 +15,3 @@ scott@bargamac$ ls -1 * | grep -o "....$" | sort -u
 JPEG
 list
 ```
-
-------------------------------
-
