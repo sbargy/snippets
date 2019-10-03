@@ -1,3 +1,4 @@
+------------------------------
 Kind of a hack, but it was fast to figure it out...
 To see all the extensions of files in a directory, get the last
 4 characters of each line...
@@ -15,4 +16,5 @@ JPEG
 list
 ```
 
+------------------------------
 
