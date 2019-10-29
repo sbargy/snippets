@@ -1,5 +1,5 @@
 ## Get Extensions
-> Kind of a hack, but it was fast to figure it out...
+Kind of a hack, but it was fast to figure it out...
 To see all the extensions of files in a directory, get the last
 4 characters of each line...
 
@@ -17,8 +17,7 @@ list
 ```
 
 ## Trim first column
-> get rid of the history number here
-
+get rid of the history number here
 ```
 (contents of file x)
 26484  git remote -v
@@ -27,13 +26,10 @@ list
 26487  git branch -d feature/restframework
 26488  git push origin develop
 ```
-
 ```
 cat x | awk '{ print $2, $3, $4, $5, $6 }'
 ```
-
-> yields
-
+yields
 ```
 git remote -v
 git checkout develop
